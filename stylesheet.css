@@ -67,9 +67,9 @@ body {
     flex-direction: column;
     position: absolute;
     top: 70px; /* Below header */
-    right: 10%; /* Align with header padding */
+    left: 60%; /* Align with header padding */
     background: #051129;
-    width: 80%;
+    width: 50%;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
