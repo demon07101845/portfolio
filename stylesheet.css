@@ -49,6 +49,42 @@ body {
 .navbar a:hover {
   color: #0ef;
 }
+/* Hamburger menu styles */
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* Below header */
+    right: 10%; /* Align with header padding */
+    background: #051129;
+    width: 80%;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar a {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: left;
+  }
+}
 .home {
   position: relative;
   width: 120%;
