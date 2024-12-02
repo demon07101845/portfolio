@@ -491,7 +491,7 @@ body {
 form textarea {
   border: none;
   outline: none;
-  width: 130%;
+  width: 100%;
   padding: 18px;
   background: #555557;
   color: #000;
@@ -524,7 +524,7 @@ form textarea {
     0 0 200px cyan;
 }
 .last-text p {
-  width: 140%;
+  width: 100%;
   text-align: center;
   padding: 25px;
   background: rgb(7, 85, 91);
@@ -543,3 +543,30 @@ form textarea {
   padding: 10px;
   border-radius: 0.5rem;
 }
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .contact {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    padding-left: 0;
+    margin-top: 80px;
+  }
+
+  .contact-text h2 {
+    font-size: 40px; /* Reduce font size for smaller screens */
+  }
+
+  .contact-text h4 {
+    font-size: 18px; /* Adjust the font size */
+  }
+
+  .contact-form {
+    width: 100%; /* Ensure form takes up full width */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Ensure input fields and textarea are full width */
+    margin-bottom: 10px; /* Add margin between fields */
+  }
+}
+
