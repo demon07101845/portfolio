@@ -491,7 +491,7 @@ body {
 form textarea {
   border: none;
   outline: none;
-  width: 90%;
+  width: 130%;
   padding: 18px;
   background: #555557;
   color: #000;
@@ -524,7 +524,7 @@ form textarea {
     0 0 200px cyan;
 }
 .last-text p {
-  width: 100%;
+  width: 140%;
   text-align: center;
   padding: 25px;
   background: rgb(7, 85, 91);
